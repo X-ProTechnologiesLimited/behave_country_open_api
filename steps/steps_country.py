@@ -3,8 +3,8 @@
 # STEPS:
 # ----------------------------------------------------------------------------
 from behave   import *
-from hamcrest import assert_that, equal_to, has_items
-from country_api import Country
+from hamcrest import assert_that, equal_to
+from lib.country_api import Country
 
 
 @given('I want to get the capital of "{country}"')
